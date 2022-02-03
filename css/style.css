@@ -1,0 +1,71 @@
+@import "null.css";
+
+/* ============подключение шрифтов========= */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+@font-face {
+  font-family: CircularStd;
+  src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: CircularStd;
+  src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: CircularStd;
+  src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: CircularStd;
+  src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+p {
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+.homework-figma {
+  font-family: "CircularStd";
+  font-weight: 900;
+  font-size: 50px;
+  color: darkorange;
+  text-shadow: 4px 4px 4px grey;
+}
+
+.content {
+  padding: 70px;
+  font-family: "Oswald";
+  font-size: 20px;
+  color: dimgray;
+}
+.main-title {
+  font-family: "pt sans";
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  color: cadetblue;
+  text-shadow: 4px 4px 4px goldenrod;
+  letter-spacing: 7px;
+}
+.title {
+  font-family: "CircularStd";
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: burlywood;
+  text-decoration: underline;
+  word-spacing: 5px;
+}
